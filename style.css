@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+}
+body {
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contener {
+    margin-top: 40px;
+    width: 318px;
+    height: 528px;
+    background-color: white;
+    text-align: center;
+}
+.contenar {
+    padding: 0 30px;
+}
+.min-imge {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.contener h2 {
+    margin-top: 30px;
+}
+p {
+    font-size: 16px;
+}
+.content {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 10px;
+}
+.content img {
+    width: 50px;
+}
+.content p {
+    text-align: start;
+}
+span {
+    font-weight: bold;
+}
+.content button {
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: hsl(245, 75%, 52%);
+}
+.content button:hover{
+    opacity: 0.8;
+}
+.contenar >button:first-of-type {
+    display: block;
+    color: white;
+    position: relative;
+    left: 50%;
+    transform: translate(-50% , 0);
+    padding: 10px 55px;
+    border: none;
+    background: hsl(245, 75%, 52%);
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.contenar >button:hover {
+    opacity: 0.8;
+}
+.contenar >button:last-of-type {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
